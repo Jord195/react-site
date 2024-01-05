@@ -22,6 +22,7 @@ export default {
       },
       backgroundImage: {
         'grass-contact': "url('./src/assets/grass-contact.jpg')",
+        'mower-hero': "url('./src/assets/mower-hero.jpg')",
       },
       colors: {
         primary: {
