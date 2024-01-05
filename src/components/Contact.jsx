@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
     return (
         <section class="flex min-h-[600px] items-stretch font-exo text-white">
-    <div class="relative hidden w-1/2 items-center bg-gray-500 bg-cover bg-no-repeat lg:flex bg-grass-contact">
+    <div class="relative hidden w-1/2 items-center bg-gray-500 bg-cover bg-no-repeat lg:flex bg-[url('https://images.unsplash.com/photo-1533460004989-cef01064af7e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
       <div class="absolute inset-0 z-0 bg-black opacity-60"></div>
       <div class="z-10 w-full px-24">
         <h1 class="text-left text-5xl font-bold tracking-wide">Get in Touch</h1>
