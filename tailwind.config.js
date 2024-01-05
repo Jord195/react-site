@@ -21,8 +21,8 @@ export default {
         nobile: ['Nobile', 'sans-serif'],
       },
       backgroundImage: {
-        'grass-contact': "url('./src/assets/grass-contact.jpg')",
-        'mower-hero': "url('./src/assets/mower-hero.jpg')",
+        'grass-contact': "url('./public/grass-contact.jpg')",
+        'mower-hero': "url('./public/mower-hero.jpg')",
       },
       colors: {
         primary: {
