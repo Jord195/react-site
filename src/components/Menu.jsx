@@ -4,7 +4,7 @@ export default function Menu() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full relative z-10 xs:bg-white md:bg-transparent shadow-2xl">
+        <nav className="w-full relative z-10 xs:bg-white md:bg-transparent xs:shadow-2xl md:shadow-none">
             <div className="justify-between mx-auto lg:w-4/5 md:items-center md:flex">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block px-4 md:px-8">
