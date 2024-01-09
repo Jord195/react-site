@@ -4,16 +4,16 @@ export default function Menu() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full relative z-10 xs:bg-white md:bg-transparent">
+        <nav className="w-full relative z-10 xs:bg-white md:bg-transparent shadow-2xl">
             <div className="justify-between mx-auto lg:w-4/5 md:items-center md:flex">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block px-4 md:px-8">
                         <a href="/">
-                            <h2 className="text-2xl xs:text-grey-700 md:text-white font-bold">LOGO</h2>
+                            <h2 className="text-2xl xs:text-primary md:text-white font-bold">LOGO</h2>
                         </a>
                         <div className="md:hidden">
                             <button
-                                className="p-2 xs:text-grey-700 md:text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 xs:text-grey-700 xs:hover:text-primary-400 md:text-white rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
