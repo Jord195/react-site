@@ -1,9 +1,9 @@
 import React from "react"
 import MainHeader from "../components/MainHeader"
 import ServicesHero from "../components/ServicesHero"
-import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import Methods from "../components/Methods"
+import ContactForm from "../components/ContactForm"
 
 export function ServicesPage() {
     return (
@@ -11,7 +11,7 @@ export function ServicesPage() {
             <MainHeader pageTitle={"Services"}/>
             <ServicesHero/>
             <Methods/>
-            <Contact/>
+            <ContactForm/>
             <Footer/>
         </div>
     )

@@ -1,13 +1,13 @@
 import React from "react";
-import Contact from "../components/Contact"
 import MainHeader from "../components/MainHeader";
 import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 export function ContactUs() {
     return (
         <div>
             <MainHeader pageTitle={"Contact Us"}/>
-            <Contact />
+            <ContactForm/>
             <Footer />
         </div>
     )

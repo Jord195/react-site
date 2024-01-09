@@ -2,9 +2,11 @@ import React from "react"
 import Hero from "../components/Hero"
 import Header from "../components/Header"
 import Services from "../components/Services"
-import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import BannerSplit from "../components/BannerSplit"
+import ContactForm from "../components/ContactForm";
+
+
 
 export function Home() {
     return (
@@ -13,7 +15,7 @@ export function Home() {
             <Hero/>
             <Services/>
             <BannerSplit/>
-            <Contact/>
+            <ContactForm />
             <Footer/>
         </div>
     )
