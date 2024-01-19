@@ -7,7 +7,6 @@ export function OurWork() {
     return (
         <div>
             <MainHeader pageTitle={"Our Work"}/>
-            <Gal
             <Contact/>
             <Footer/>
         </div>
