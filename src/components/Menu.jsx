@@ -7,7 +7,7 @@ export default function Menu() {
         <nav className="w-full relative z-10 xs:bg-white md:bg-transparent xs:shadow-2xl md:shadow-none">
             <div className="justify-between mx-auto lg:w-4/5 md:items-center md:flex">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block px-4 md:px-8">
+                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="/">
                             <h2 className="text-2xl xs:text-primary md:text-white font-bold">LOGO</h2>
                         </a>
@@ -67,6 +67,9 @@ export default function Menu() {
                             </li>
                             <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
                                 <a href="/Testimonials">Testimonials</a>
+                            </li>
+                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
+                                <a href="/Our-Work">Our Work</a>
                             </li>
                             <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
                                 <a href="/Contact">Contact Us</a>

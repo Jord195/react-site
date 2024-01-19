@@ -1,145 +1,136 @@
 import React from "react";
 
 export default function Footer() {
-    return (
-        <footer class="bg-primary-500">
-  <div class="pb-16 pt-4 sm:pt-10 lg:pt-12 contain">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-      <div class="grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
-        <div class="col-span-full lg:col-span-2">
-          <div class="mb-4 lg:-mt-2">
-            <a href="/" class="inline-flex items-center gap-2 text-xl font-bold text-white md:text-2xl"
-              aria-label="logo">
-              <svg class="" id="logo-86" width="40" height="40" viewBox="0 0 40 40" fill="#FFFFFF"
-                xmlns="http://www.w3.org/2000/svg">
-                <path class="ccustom" fill-rule="evenodd" clip-rule="evenodd"
-                  d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z">
-                </path>
-                <path class="ccustom" fill-rule="evenodd" clip-rule="evenodd"
-                  d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z">
-                </path>
-              </svg>
+  const currentYear = new Date().getFullYear();
 
-              Pertemps Medical
-            </a>
+  return (
+    <footer class="bg-primary-500">
+      <div class="pb-16 pt-4 sm:pt-10 lg:pt-12 contain">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+          <div class="grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
+            <div class="col-span-full lg:col-span-2">
+              <div class="mb-4 lg:-mt-2">
+                <a href="/" class="inline-flex items-center gap-2 text-2xl font-bold text-white md:text-2xl"
+                  aria-label="logo">
+                  Livingstone Garden Services
+                </a>
+              </div>
+
+              <p class="text-white sm:pr-8">Experience the beauty of a well-maintained garden, tailored to your preferences and flourishing throughout the seasons.</p>
+            </div>
+
+            <div>
+              <div class="mb-4 font-bold uppercase tracking-widest text-white">Products</div>
+
+              <nav class="flex flex-col gap-4">
+                <div>
+                  <a href="#"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Overview</a>
+                </div>
+
+                <div>
+                  <a href="#"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Solutions</a>
+                </div>
+
+                <div>
+                  <a href="#"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Pricing</a>
+                </div>
+              </nav>
+            </div>
+
+            <div>
+              <div class="mb-4 font-bold uppercase tracking-widest text-white">Company</div>
+
+              <nav class="flex flex-col gap-4">
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">About</a>
+                </div>
+
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Investor
+                    Relations</a>
+                </div>
+
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Jobs</a>
+                </div>
+              </nav>
+            </div>
+
+            <div>
+              <div class="mb-4 font-bold uppercase tracking-widest text-white">Support</div>
+
+              <nav class="flex flex-col gap-4">
+                <div>
+                  <a href="#"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Contact</a>
+                </div>
+
+                <div>
+                  <a href="#"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Documentation</a>
+                </div>
+
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Chat</a>
+                </div>
+              </nav>
+            </div>
+
+            <div>
+              <div class="mb-4 font-bold uppercase tracking-widest text-white">Legal</div>
+
+              <nav class="flex flex-col gap-4">
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Terms of
+                    Service</a>
+                </div>
+
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Privacy
+                    Policy</a>
+                </div>
+
+                <div>
+                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Cookie
+                    settings</a>
+                </div>
+              </nav>
+            </div>
           </div>
-
-          <p class="text-white sm:pr-8">Filler text is dummy text which has no meaning however looks very similar to
-            real text.</p>
-        </div>
-
-        <div>
-          <div class="mb-4 font-bold uppercase tracking-widest text-white">Products</div>
-
-          <nav class="flex flex-col gap-4">
-            <div>
-              <a href="#"
-                class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Overview</a>
-            </div>
-
-            <div>
-              <a href="#"
-                class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Solutions</a>
-            </div>
-
-            <div>
-              <a href="#"
-                class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Pricing</a>
-            </div>
-          </nav>
-        </div>
-
-        <div>
-          <div class="mb-4 font-bold uppercase tracking-widest text-white">Company</div>
-
-          <nav class="flex flex-col gap-4">
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">About</a>
-            </div>
-
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Investor
-                Relations</a>
-            </div>
-
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Jobs</a>
-            </div>
-          </nav>
-        </div>
-
-        <div>
-          <div class="mb-4 font-bold uppercase tracking-widest text-white">Support</div>
-
-          <nav class="flex flex-col gap-4">
-            <div>
-              <a href="#"
-                class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Contact</a>
-            </div>
-
-            <div>
-              <a href="#"
-                class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Documentation</a>
-            </div>
-
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Chat</a>
-            </div>
-          </nav>
-        </div>
-
-        <div>
-          <div class="mb-4 font-bold uppercase tracking-widest text-white">Legal</div>
-
-          <nav class="flex flex-col gap-4">
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Terms of
-                Service</a>
-            </div>
-
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Privacy
-                Policy</a>
-            </div>
-
-            <div>
-              <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Cookie
-                settings</a>
-            </div>
-          </nav>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="bg-gray-100">
-    <div class="mx-auto max-w-screen-2xl xs:w-[80%] xl:w-3/5">
-      <div class="flex items-center justify-between gap-4 py-8">
-        <span class="text-sm text-gray-400"> © 2023 - Pertemps Medical 2023 </span>
+      <div class="bg-gray-100">
+        <div class="mx-auto max-w-screen-2xl xs:w-[80%] xl:w-3/5">
+          <div class="flex items-center justify-between gap-4 py-8">
+            <span class="text-sm text-gray-400">©{currentYear} - Livingstone Garden Services</span>
 
-        <div class="flex gap-4">
-          <a href="#" target="_blank"
-            class="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
-            <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-              <path fill-rule="evenodd"
-                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </a>
+            <div class="flex gap-4">
+              <a href="#" target="_blank"
+                class="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
+                <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd"
+                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </a>
 
-          <a href="#" target="_blank"
-            class="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
-            <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-              <path fill-rule="evenodd"
-                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </a>
+              <a href="#" target="_blank"
+                class="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
+                <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 
-    )
+  )
 }

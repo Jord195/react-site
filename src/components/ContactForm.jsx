@@ -34,8 +34,8 @@ const Contact = () => {
             <div class="relative hidden w-1/2 items-center bg-gray-500 bg-cover bg-no-repeat lg:flex bg-[url('https://images.unsplash.com/photo-1533460004989-cef01064af7e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
                 <div class="absolute inset-0 z-0 bg-black opacity-60"></div>
                 <div class="z-10 w-full px-24">
-                    <h1 class="text-left text-5xl font-bold tracking-wide">Get in Touch</h1>
-                    <p class="my-4 text-3xl">Pertemps Medical puts relationships at the heart of everything</p>
+                    <h1 class="text-left text-5xl font-bold tracking-wide">Contact Us</h1>
+                    <p class="my-4 text-3xl">We care for your garden with a personal touch</p>
                 </div>
                 <div class="absolute bottom-0 left-0 right-0 flex justify-center space-x-4 p-4 text-center">
                     <a href="" class="hover:scale-125 ease-in-out duration-300">
