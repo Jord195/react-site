@@ -7,7 +7,7 @@ export default function Footer() {
     <footer class="bg-primary-500">
       <div class="pb-16 pt-4 sm:pt-10 lg:pt-12 contain">
         <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div class="grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
+          <div class="grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-5 lg:gap-8 lg:pt-12">
             <div class="col-span-full lg:col-span-2">
               <div class="mb-4 lg:-mt-2">
                 <a href="/" class="inline-flex items-center gap-2 text-2xl font-bold text-white md:text-2xl"
@@ -20,82 +20,61 @@ export default function Footer() {
             </div>
 
             <div>
-              <div class="mb-4 font-bold uppercase tracking-widest text-white">Products</div>
+
 
               <nav class="flex flex-col gap-4">
                 <div>
-                  <a href="#"
-                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Overview</a>
+                  <a href="/"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Home</a>
                 </div>
 
                 <div>
-                  <a href="#"
-                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Solutions</a>
+                  <a href="/"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Blogs</a>
                 </div>
 
                 <div>
-                  <a href="#"
-                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Pricing</a>
+                  <a href="/Our-Work"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Our Work</a>
                 </div>
               </nav>
             </div>
 
             <div>
-              <div class="mb-4 font-bold uppercase tracking-widest text-white">Company</div>
+
 
               <nav class="flex flex-col gap-4">
-                <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">About</a>
+              <div>
+                  <a href="/" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Jobs</a>
                 </div>
 
                 <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Investor
-                    Relations</a>
+                  <a href="/about" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">About</a>
                 </div>
 
                 <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Jobs</a>
+                  <a href="/testimonials" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Testimonials</a>
                 </div>
+
               </nav>
             </div>
 
             <div>
-              <div class="mb-4 font-bold uppercase tracking-widest text-white">Support</div>
+
 
               <nav class="flex flex-col gap-4">
                 <div>
-                  <a href="#"
+                  <a href="/contact"
                     class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Contact</a>
                 </div>
 
                 <div>
-                  <a href="#"
-                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Documentation</a>
+                  <a href="tel:07123456789"
+                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">07459747337</a>
                 </div>
 
                 <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Chat</a>
-                </div>
-              </nav>
-            </div>
-
-            <div>
-              <div class="mb-4 font-bold uppercase tracking-widest text-white">Legal</div>
-
-              <nav class="flex flex-col gap-4">
-                <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Terms of
-                    Service</a>
-                </div>
-
-                <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Privacy
-                    Policy</a>
-                </div>
-
-                <div>
-                  <a href="#" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Cookie
-                    settings</a>
+                  <a href="mailto:enquiries@livingstonegardenservices.co.uk" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">enquiries@livingstonegardenservices.co.uk</a>
                 </div>
               </nav>
             </div>
@@ -109,7 +88,7 @@ export default function Footer() {
             <span class="text-sm text-gray-400">©{currentYear} - Livingstone Garden Services</span>
 
             <div class="flex gap-4">
-              <a href="#" target="_blank"
+              <a href="" target="_blank"
                 class="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
                 <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                   <path fill-rule="evenodd"
@@ -118,7 +97,7 @@ export default function Footer() {
                 </svg>
               </a>
 
-              <a href="#" target="_blank"
+              <a href="https://www.facebook.com/profile.php?id=100095101402716" target="_blank"
                 class="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
                 <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                   <path fill-rule="evenodd"

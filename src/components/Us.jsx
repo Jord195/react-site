@@ -6,13 +6,13 @@ export default function Us() {
                     <div class="h-full flex">
                         <div class="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
                             <div class="max-h-[500px] h-full w-full overflow-hidden">
-                                <img src="https://cdn.pixabay.com/photo/2015/09/13/18/43/lawn-mower-938555_1280.jpg" class="hover:scale-110 duration-200 ease-in-out" loading="lazy" alt="" />
+                                <img src="https://cdn.pixabay.com/photo/2017/09/25/20/07/lawnmower-2786525_960_720.jpg" class="hover:scale-110 h-full  duration-200 ease-in-out" loading="lazy" alt="" />
                             </div>
                         </div>
                     </div>
 
                     <div class="">
-                        <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">Who We Are</h1>
+                        <h1 class="mb-4 text-4xl tracking-tight font-extrabold">Who We Are</h1>
 
                         <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                             At Livingstone Garden Services, we take pride in being your trusted garden care partner with a dedicated team specializing in various aspects of garden maintenance. We prioritize building meaningful connections, placing them at the heart of our mission.

@@ -10,7 +10,7 @@ const ServiceCard = ({ icon, title, description }) => (
             <div className="flex-grow">
                 <h2 className="title-font mb-3 text-lg font-medium text-white">{title}</h2>
                 <p className="text-white leading-relaxed">{description}</p>
-                <a className="mt-6 inline-flex items-center text-white">
+                {/* <a className="mt-6 inline-flex items-center text-white">
                     Learn More
                     <svg
                         fill="none"
@@ -23,7 +23,7 @@ const ServiceCard = ({ icon, title, description }) => (
                     >
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
-                </a>
+                </a> */}
             </div>
         </div>
     </div>

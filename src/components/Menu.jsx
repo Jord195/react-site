@@ -9,11 +9,11 @@ export default function Menu() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="/">
-                            <h2 className="text-2xl xs:text-primary md:text-white font-bold">LOGO</h2>
+                            <h2 className="text-2xl xs:text-primary md:text-white font-bold pl-4">LOGO</h2>
                         </a>
                         <div className="md:hidden">
-                            <button
-                                className="p-2 xs:text-grey-700 xs:hover:text-primary-400 md:text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                        <button
+                                className="p-2 xs:text-primary xs:hover:text-primary-400 md:text-white rounded-md outline-none pr-4"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -56,23 +56,30 @@ export default function Menu() {
                         }`}
                     >
                         <ul className="items-center justify-center md:flex text-lg font-exo font-semibold">
-                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
-                                <a href="/">Home</a>
+                            <li className="hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
+                                <a href="/" className="block py-3 text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100">
+                                    Home
+                                </a>
                             </li>
-                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
-                                <a href="/About">About</a>
+                            <li className="hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
+                                <a href="/About" className="block py-3 text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100">
+                                    About
+                                </a>
                             </li>
-                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
-                                <a href="/Services">Our Services</a>
+                            <li className="hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
+                                <a href="/Testimonials" className="block py-3 text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100">
+                                    Testimonials
+                                </a>
                             </li>
-                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
-                                <a href="/Testimonials">Testimonials</a>
+                            <li className="hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
+                                <a href="/Our-Work" className="block py-3 text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100">
+                                    Our Work
+                                </a>
                             </li>
-                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
-                                <a href="/Our-Work">Our Work</a>
-                            </li>
-                            <li className="text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100 py-3 hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
-                                <a href="/Contact">Contact Us</a>
+                            <li className="hover:bg-grey-50 md:hover:bg-transparent px-4 ease-in-out duration-150">
+                                <a href="/Contact" className="block py-3 text-grey-700 md:text-white hover:text-grey-900 md:hover:text-grey-100">
+                                    Contact Us
+                                </a>
                             </li>
                         </ul>
                     </div>

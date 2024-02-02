@@ -5,6 +5,7 @@ import Services from "../components/Services"
 import Footer from "../components/Footer"
 import BannerSplit from "../components/BannerSplit"
 import ContactForm from "../components/ContactForm";
+import Docs from "../components/UsefulDocs"
 
 
 
@@ -15,6 +16,7 @@ export function Home() {
             <Hero/>
             <Services/>
             <BannerSplit/>
+            {/* <Docs/> */}
             <ContactForm />
             <Footer/>
         </div>

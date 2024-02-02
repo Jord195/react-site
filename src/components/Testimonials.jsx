@@ -4,6 +4,17 @@ export default function Testimonials() {
     return (
         <section>
             <div class="contain font-exo">
+            <div class="xs:my-12 md:py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div class="max-w-screen-md">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold">What Our Clients Say About Us.</h2>
+                    <p class="mb-8 font-light text-gray-500 text-xl">Hear directly from our satisfied clients who have experienced the transformative impact of Livingstone Garden Services. The testimonials speak volumes about the quality of our work and the dedication we bring to every project. Connect with us, and let's discuss how we can enhance your outdoor space and exceed your expectations.</p>
+                    <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                        <a href="/Contact" class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary rounded-lg hover:bg-primary-400 ease-in-out duration-200">
+                            Connect With Us
+                        </a>
+                    </div>
+                </div>
+            </div>
                 <div class="my-12 grid xs:gap-8 lg:gap-20 md:grid-cols-2 lg:grid-cols-3">
                     <div class="flex flex-col rounded-xl border-2 bg-primary p-6">
                         <svg class="h-8 self-start" viewBox="0 0 65 49" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

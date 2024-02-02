@@ -21,8 +21,17 @@ export default {
         nobile: ['Nobile', 'sans-serif'],
       },
       backgroundImage: {
-        'grass-contact': "url('./grass-contact.jpg')",
-        'mower-hero': "url('./mower-hero.jpg')",
+        'grass-contact': "url('../src/gallery/grass-contact.jpg')",
+        'mower-hero': "url('../src/gallery/mower-hero.jpg')",
+        '1': "url('../src/gallery/1.jpg')",
+        '2': "url('../src/gallery/2.jpg')",
+        '3': "url('../src/gallery/3.jpg')",
+        '4': "url('../src/gallery/4.jpg')",
+        '5': "url('../src/gallery/5.jpg')",
+        '6': "url('../src/gallery/6.jpg')",
+        '7': "url('../src/gallery/7.jpg')",
+        '8': "url('../src/gallery/8.jpg')",
+        '9': "url('../src/gallery/9.jpg')",
       },
       colors: {
         primary: {
