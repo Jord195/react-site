@@ -15,15 +15,15 @@ export default function OurWorkGallery() {
                 </div>
             </div>
             <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <img src="../src/gallery/1.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/2.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/3.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/4.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/10.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/11.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/7.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/8.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
-                <img src="../src/gallery/9.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/1.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/2.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/3.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/4.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/10.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/11.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/7.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/8.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
+                <img src="/9.jpg" loading="lazy" alt="Photo by Minh Pham" class="" />
             </div>
         </div>
 
