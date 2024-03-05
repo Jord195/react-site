@@ -13,7 +13,7 @@ export default function Gallery() {
             </div>
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
               <a href="/Our-Work" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="/5.jpg" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                <img src="/Gallery5.jpg" loading="lazy" alt="Photo by Livingstone Garden Services" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
       
                 <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
       
@@ -21,7 +21,7 @@ export default function Gallery() {
               </a>
 
               <a href="/Our-Work" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                <img src="/8.jpg" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                <img src="/Gallery8.jpg" loading="lazy" alt="Photo by Livingstone Garden Services" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
       
                 <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
       
@@ -29,7 +29,7 @@ export default function Gallery() {
               </a>
 
               <a href="/Our-Work" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                <img src="/3.jpg" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                <img src="/Gallery3.jpg" loading="lazy" alt="Photo by Livingstone Garden Services" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
       
                 <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
       
@@ -37,7 +37,7 @@ export default function Gallery() {
               </a>
 
               <a href="/Our-Work" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                <img src="/14.jpg" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+                <img src="/Gallery14.jpg" loading="lazy" alt="Photo by Livingstone Garden Services" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
       
                 <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
       

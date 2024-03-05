@@ -9,7 +9,8 @@ export default function Menu() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="/">
-                            <h2 className="text-2xl xs:text-primary md:text-white font-bold pl-4">LOGO</h2>
+                        <img src="LGS-logo.png" loading="lazy" alt="LGS Logo" class="h-16 xs:hidden md:block xs:pl-5 lg:pl-0" />
+                        <img src="LGS-logo-dark.png" loading="lazy" alt="LGS Logo" class="h-16 md:hidden xs:pl-5 lg:pl-0" />
                         </a>
                         <div className="md:hidden">
                         <button

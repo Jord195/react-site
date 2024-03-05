@@ -28,10 +28,10 @@ export default function Footer() {
                     class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Home</a>
                 </div>
 
-                <div>
+                {/* <div>
                   <a href="/"
                     class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Blogs</a>
-                </div>
+                </div> */}
 
                 <div>
                   <a href="/Our-Work"
@@ -44,9 +44,9 @@ export default function Footer() {
 
 
               <nav class="flex flex-col gap-4">
-              <div>
+              {/* <div>
                   <a href="/" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Jobs</a>
-                </div>
+                </div> */}
 
                 <div>
                   <a href="/about" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">About</a>
@@ -63,19 +63,12 @@ export default function Footer() {
 
 
               <nav class="flex flex-col gap-4">
-                <div>
+                
+              <div>
                   <a href="/contact"
                     class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">Contact</a>
                 </div>
 
-                <div>
-                  <a href="tel:07123456789"
-                    class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">07459747337</a>
-                </div>
-
-                <div>
-                  <a href="mailto:enquiries@livingstonegardenservices.co.uk" class="text-white transition duration-100 hover:text-gray-200 active:text-gray-400">enquiries@livingstonegardenservices.co.uk</a>
-                </div>
               </nav>
             </div>
           </div>

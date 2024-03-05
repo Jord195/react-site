@@ -4,7 +4,7 @@ export default function Testimonials() {
     return (
         <section>
             <div class="contain font-exo">
-            <div class="xs:my-12 md:py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="xs:my-12 md:py-8 px-4 mx-auto sm:py-16 lg:px-6">
                 <div class="max-w-screen-md">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold">What Our Clients Say About Us.</h2>
                     <p class="mb-8 font-light text-gray-500 text-xl">Hear directly from our satisfied clients who have experienced the transformative impact of Livingstone Garden Services. The testimonials speak volumes about the quality of our work and the dedication we bring to every project. Connect with us, and let's discuss how we can enhance your outdoor space and exceed your expectations.</p>
